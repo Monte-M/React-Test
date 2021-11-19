@@ -1,8 +1,10 @@
-import React from 'react';
+import React from "react";
+import Table from "./components/Table";
 
 function Task6() {
   return (
-    <div>
+    <div className="container">
+      <Table />
       <h3>Task 6</h3>
     </div>
   );
@@ -11,14 +13,14 @@ function Task6() {
 export default Task6;
 
 /* Task 6
-Atkurkite lentelę, kurioje bus randama ši informacija apie vartotoją:
+Atkurkite lentelę, kurioje bus randama ši informacija apie vartotoją: +
 - name;
 - email;
 - address (street + city pvz.: "Kulas Light, Gwenborough");
 - phone;
 - company (name).
 
-Informaciją imkite iš čia: https://jsonplaceholder.typicode.com/users
+Informaciją imkite iš čia: https://jsonplaceholder.typicode.com/users +
 
-Pastaba: naudokite useState, useEffect.
+Pastaba: naudokite useState, useEffect. +
 */

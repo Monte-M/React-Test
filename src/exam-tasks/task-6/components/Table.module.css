@@ -1,0 +1,14 @@
+.container {
+  border: 1px solid #000;
+  border-collapse: collapse;
+}
+
+th,
+td {
+  border: 1px solid gray;
+  padding: 15px;
+}
+
+tbody tr:nth-child(2n + 1) {
+  background-color: lightgray;
+}
