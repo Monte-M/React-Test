@@ -13,13 +13,13 @@ function Task4() {
 export default Task4;
 
 /* Task 4
-Atkurkite šį komponentą: https://prnt.sc/1296zmk
+Atkurkite šį komponentą: https://prnt.sc/1296zmk +
 
-Pastabos, leidžiama balsuoti, tik vieną kartą. 
+Pastabos, leidžiama balsuoti, tik vieną kartą. +
 Paspaudus ant vieno mygtuko, antrą kartą paspausti ant jo 
 negalima, tačiau leidžiama pakeisti nuomonę ir paspausti 
 ant kito. Tokiu atveju nuo prieš tai paspausto balsas "nuimamas"
-ir perduodamas kitam.
+ir perduodamas kitam. +
 
-Pastaba: būtina panaudoti useReducer
+Pastaba: būtina panaudoti useReducer +
 */

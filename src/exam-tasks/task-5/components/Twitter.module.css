@@ -1,0 +1,29 @@
+.container {
+  margin: 20px 70px;
+  border-radius: 3px;
+  box-shadow: 1px 1px 3px lightgray;
+  width: 600px;
+  padding: 30px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.container i {
+  color: #1da1f2;
+  font-size: 42px;
+}
+
+.container h1 {
+  font-size: 60px;
+  margin: 20px 0;
+}
+
+.container h3 {
+  font-size: 32px;
+  margin: 20px 0;
+}
+
+.buttons {
+  display: flex;
+  width: 340px;
+  flex-direction: column;
+}

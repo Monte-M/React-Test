@@ -1,5 +1,5 @@
 import React from "react";
-import Categories from "./Pages/Categories";
+import Categories from "./components/Categories";
 
 function Task2() {
   return (
