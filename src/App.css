@@ -4,3 +4,11 @@
   align-items: center;
   flex-direction: column;
 }
+
+.like {
+  color: green !important;
+}
+
+.dislike {
+  color: red !important;
+}

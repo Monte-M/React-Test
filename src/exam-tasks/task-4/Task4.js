@@ -1,8 +1,10 @@
-import React from 'react';
+import React from "react";
+import Buttons from "./components/Buttons";
 
 function Task4() {
   return (
-    <div>
+    <div className="container">
+      <Buttons />
       <h3>Task 4</h3>
     </div>
   );
