@@ -16,13 +16,15 @@ function Task8() {
   const handleDecrease = () => setCounter(counter - 10);
 
   return (
-    <div className={css.container}>
-      <CounterContext.Provider
-        value={{ counter, handleIncrease, handleDecrease }}
-      >
-        <CompA />
-        <CompB />
-      </CounterContext.Provider>
+    <div className="container">
+      <div className={css.container}>
+        <CounterContext.Provider
+          value={{ counter, handleIncrease, handleDecrease }}
+        >
+          <CompA />
+          <CompB />
+        </CounterContext.Provider>
+      </div>
       <h3>Task 8</h3>
     </div>
   );

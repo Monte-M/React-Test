@@ -1,12 +1,33 @@
-import React, { Component } from 'react';
-import Card from './Card';
+import React, { Component } from "react";
+import Card from "./Card";
 
+import css from "./Task9.module.css";
 export default class Task9 extends Component {
+  constructor() {
+    super();
+    this.state = {
+      todos: [],
+    };
+  }
+
+  componentDidMount() {
+    fetch(`https://jsonplaceholder.typicode.com/todos`)
+      .then((resp) => resp.json())
+      .then((data) => {
+        this.setState({ todos: data.slice(0, 5) });
+        console.log(data);
+      });
+  }
   render() {
     return (
-      <div>
+      <div className="container">
+        <ol className={css.list}>
+          <h3>Todo List</h3>
+          {this.state.todos.map(({ title, id, completed }) => (
+            <Card key={id} id={id} title={title} completed={completed} />
+          ))}
+        </ol>
         <h3>Task 9</h3>
-        {/*<Card />*/}
       </div>
     );
   }

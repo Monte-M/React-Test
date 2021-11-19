@@ -1,0 +1,10 @@
+.card {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid gray;
+  padding: 5px;
+}
+
+.card span {
+  margin: 5px;
+}
