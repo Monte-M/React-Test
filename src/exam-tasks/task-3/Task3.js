@@ -1,8 +1,10 @@
-import React from 'react';
+import React from "react";
+import Form from "./components/Form";
 
 function Task3() {
   return (
-    <div>
+    <div className="container">
+      <Form />
       <h3>Task 3</h3>
     </div>
   );
@@ -11,16 +13,16 @@ function Task3() {
 export default Task3;
 
 /* TASK 3
-Sukurkite forma, kurioje vartotojas galės nurodyti
+Sukurkite forma, kurioje vartotojas galės nurodyti +
 - vardą
 - pavardę
 - amžių
 
 Vartotojui užpildius formą ir paspaudus "Pateikti", po forma 
 atsiras atsiras pasisveikinimas:
-- Jei asmuo yra 18 m. ir vyresnis: "Dėkojame, kad užsiregistravote"
-- Jei asmuo yra 17 m. ir jaunesnis: "Deja, registracija negalima. 
-Registruotis galima tik nuo 18 metų"
+- Jei asmuo yra 18 m. ir vyresnis: "Dėkojame, kad užsiregistravote" +
+- Jei asmuo yra 17 m. ir jaunesnis: "Deja, registracija negalima. +
+Registruotis galima tik nuo 18 metų" 
 
-Pastaba: panaudokite useState
+Pastaba: panaudokite useState +
 */

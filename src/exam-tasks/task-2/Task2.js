@@ -3,7 +3,7 @@ import Categories from "./Pages/Categories";
 
 function Task2() {
   return (
-    <div className="container2">
+    <div className="container">
       <Categories />
       <h3>Task 2</h3>
     </div>
