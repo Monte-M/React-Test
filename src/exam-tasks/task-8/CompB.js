@@ -1,9 +1,11 @@
-import React from 'react';
+import React from "react";
+import { CounterContext } from "./Task8";
 
 function CompB() {
+  const { handleDecrease } = React.useContext(CounterContext);
   return (
     <div>
-      <h4>CompB</h4>
+      <button onClick={handleDecrease}>Decrease</button>
     </div>
   );
 }

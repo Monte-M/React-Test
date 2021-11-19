@@ -16,7 +16,7 @@ const Theme = () => {
   };
 
   return (
-    <div ref={box} className={css}>
+    <div ref={box} className={css.container}>
       <h1>You can change background color by using useRef</h1>
       <p>Click on one of the buttons down below to see how it works</p>
       <button onClick={handleLightTheme}>Light Theme</button>
