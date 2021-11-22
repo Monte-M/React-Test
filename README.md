@@ -1,1 +1,3 @@
-### React exam Mantas Matelionis
+# React exam
+
+### Atliko: Mantas Matelionis
