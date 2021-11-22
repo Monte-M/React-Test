@@ -3,7 +3,7 @@ import { useRef } from "react";
 import css from "./Theme.module.css";
 
 const Theme = () => {
-  const box = useRef(null);
+  const box = useRef();
 
   const handleLightTheme = () => {
     box.current.style.background = "#f1f1f1";

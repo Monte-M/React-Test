@@ -39,13 +39,14 @@ const Form = () => {
         value={age}
         onChange={(e) => setAge(e.target.value)}
       />
+
+      <button>Pateikti</button>
       {adult === true && <h4>Dėkojame, kad užsiregistravote</h4>}
       {adult === false && (
         <h4>
           Deja, registracija negalima. Registruotis galima tik nuo 18 metų
         </h4>
       )}
-      <button>Pateikti</button>
     </form>
   );
 };

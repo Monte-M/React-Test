@@ -5,7 +5,7 @@ function CompB() {
   const { handleIncrease, handleDecrease } = React.useContext(CounterContext);
   return (
     <div>
-      <h4>CompB</h4>
+      <h2>CompB</h2>
       <button onClick={handleIncrease}>Increase</button>
       <button onClick={handleDecrease}>Decrease</button>
     </div>

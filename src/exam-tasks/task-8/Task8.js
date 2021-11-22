@@ -35,7 +35,7 @@ export default Task8;
 /* Task 8 
 task-8 aplanke rasite kelis komponetus. Task8 komponente, turi būti atvaizduojami
 šie kompoentai: CompA (viduje turi <h2>CompA</h2> ir CompA1 (su tekstu <h3>CompA1</h3>)) 
-ir CompB (viduje turi <h2>CompB</h2>).
+ir CompB (viduje turi <h2>CompB</h2>). +
 
 Task8 komponentų medis +
 - CompA
