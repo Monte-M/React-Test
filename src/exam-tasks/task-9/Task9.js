@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import Card from "./Card";
 
 import css from "./Task9.module.css";
+
 export default class Task9 extends Component {
   constructor() {
     super();
@@ -15,7 +16,6 @@ export default class Task9 extends Component {
       .then((resp) => resp.json())
       .then((data) => {
         this.setState({ todos: data.slice(0, 5) });
-        console.log(data);
       });
   }
   render() {
@@ -24,7 +24,12 @@ export default class Task9 extends Component {
         <ol className={css.list}>
           <h3>Todo List</h3>
           {this.state.todos.map(({ title, id, completed }) => (
-            <Card key={id} id={id} title={title} completed={completed} />
+            <Card
+              key={id}
+              id={id}
+              title={title}
+              completed={completed ? "Yes" : "No"}
+            />
           ))}
         </ol>
         <h3>Task 9</h3>

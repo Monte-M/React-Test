@@ -2,11 +2,12 @@ import React from "react";
 import { CounterContext } from "./Task8";
 
 function CompA1() {
-  const { counter } = React.useContext(CounterContext);
+  const { handleIncrease, handleDecrease } = React.useContext(CounterContext);
   return (
     <div>
-      <h3>Counter: {counter}</h3>
-      {counter >= 100 && <h4>Didinti nebegalima</h4>}
+      <h4>CompA1</h4>
+      <button onClick={handleIncrease}>Increase</button>
+      <button onClick={handleDecrease}>Decrease</button>
     </div>
   );
 }

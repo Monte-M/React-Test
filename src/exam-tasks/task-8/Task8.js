@@ -18,9 +18,9 @@ function Task8() {
   return (
     <div className="container">
       <div className={css.container}>
-        <CounterContext.Provider
-          value={{ counter, handleIncrease, handleDecrease }}
-        >
+        <CounterContext.Provider value={{ handleIncrease, handleDecrease }}>
+          <h3>Counter: {counter}</h3>
+          {counter >= 100 && <p>Didinti nebegalima</p>}
           <CompA />
           <CompB />
         </CounterContext.Provider>
