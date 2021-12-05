@@ -1,3 +1,4 @@
 # React exam
 
-### Atliko: Mantas Matelionis
+
+### This was react exam, which contained 10 tasks.
